@@ -4,11 +4,23 @@
 
 <h1 align="center">MedBrains</h1>
 
-<p align="center"><strong>Hospital management software for Indian hospitals.</strong><br>
+<p align="center"><strong>Software that runs a whole hospital. Free, forever.</strong><br>
 One patient record across OPD, wards, lab, radiology, pharmacy and billing, built for ABDM, NHCX and UHI.</p>
 
+<p align="center"><em>Every patient deserves safe care. Every hospital, big or small, deserves the tools to give it.<br>
+Built with love for patients, for hospitals, and for well-made software.</em></p>
+
 <p align="center">
+  <a href="https://github.com/medbrains/medbrains/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-0F62FE?style=for-the-badge" alt="License: Apache 2.0"></a>
+  <img src="https://img.shields.io/badge/💚_Free-forever-24A148?style=for-the-badge" alt="Free forever">
+  <img src="https://img.shields.io/badge/❤️_For-every_patient-DA1E28?style=for-the-badge" alt="For every patient">
+  <img src="https://img.shields.io/badge/🏥_For-every_hospital-8A3FFC?style=for-the-badge" alt="For every hospital">
+</p>
+
+<p align="center">
+  <a href="https://github.com/medbrains/medbrains">Source code</a> ·
   <a href="https://www.medbrains.in">Website</a> ·
+  <a href="https://www.medbrains.in/pricing">Pricing</a> ·
   <a href="https://www.medbrains.in/blog">Blog</a> ·
   <a href="https://www.medbrains.in/#demo">Book a demo</a> ·
   <a href="mailto:hello@medbrains.in">hello@medbrains.in</a>
@@ -17,6 +29,13 @@ One patient record across OPD, wards, lab, radiology, pharmacy and billing, buil
 <p align="center">
   <img src="assets/banner.png" alt="MedBrains: OPD workstation, waiting-room token board and patient app" width="100%">
 </p>
+
+## Why it's free
+
+- **The software and every update are free**, for every hospital and clinic, under the Apache 2.0 licence. No subscription, no charge per user.
+- **Safety for everyone.** Every patient-safety check is free, never an upgrade.
+- **Your data is yours.** A full export whenever you ask. We never sell clinical data.
+- **How we earn:** only from optional implementation, training, hosting and support (AMC). See [pricing](https://www.medbrains.in/pricing).
 
 ## What MedBrains does
 
@@ -50,10 +69,12 @@ MedBrains is **not yet certified by NHA** for ABDM, NHCX or UHI production use. 
 
 ## Source code
 
-The source code is not public yet. We plan to release it under the **AGPL-3.0**, with a commercial licence for organisations that can't share their changes. Watch this organisation to hear when it opens.
+The code is at **[medbrains/medbrains](https://github.com/medbrains/medbrains)**, licensed under **Apache 2.0**. Start with the [README](https://github.com/medbrains/medbrains#readme) and [CONTRIBUTING](https://github.com/medbrains/medbrains/blob/main/CONTRIBUTING.md). We are working towards recognition as a [Digital Public Good](https://digitalpublicgoods.net/).
 
 ## Get involved
 
-We'd love to hear from **clinicians** (what slows you down?), **hospital administrators** (what does your HMS get wrong?) and **developers** (Rust, React, Swift, Kotlin). Write to hello@medbrains.in.
+We'd love to hear from **clinicians** (what slows you down?), **hospital administrators** (what does your HMS get wrong?) and **developers** (Rust, React, Swift, Kotlin). Open an [issue](https://github.com/medbrains/medbrains/issues) or write to hello@medbrains.in.
 
-<sub>"MedBrains" and its logo are trademarks of the MedBrains project. SNOMED CT is a registered trademark of SNOMED International.</sub>
+**Sponsor the work:** fund a feature every hospital gets, implementation at a charitable hospital, or a regional language. Write to hello@medbrains.in.
+
+<sub>"MedBrains" and its logo are trademarks of Domnic Amalan S and are not covered by the code licence. SNOMED CT is a registered trademark of SNOMED International.</sub>
