@@ -21,6 +21,8 @@ Built with love for patients, for hospitals, and for well-made software.</em></p
   <a href="https://github.com/medbrains/medbrains">Source code</a> ·
   <a href="https://www.medbrains.in">Website</a> ·
   <a href="https://www.medbrains.in/pricing">Pricing</a> ·
+  <a href="https://www.medbrains.in/partners">Partners</a> ·
+  <a href="https://www.medbrains.in/sponsors">Sponsor</a> ·
   <a href="https://www.medbrains.in/blog">Blog</a> ·
   <a href="https://www.medbrains.in/#demo">Book a demo</a> ·
   <a href="mailto:hello@medbrains.in">hello@medbrains.in</a>
@@ -41,7 +43,7 @@ Built with love for patients, for hospitals, and for well-made software.</em></p
 
 - **One patient, one record.** Registration with a duplicate check, so a patient never gets two UHIDs. The token, case sheet, orders, prescription, dispensing, bill and discharge summary all hang off that record.
 - **Clinical safety in the software, not on paper.** Schedule H/H1/X and NDPS rules at the pharmacy counter, critical lab values alerted to the doctor, the WHO surgical safety checklist enforced in OT, and nursing risk scores (NEWS2, Braden, Morse).
-- **The way Indian hospitals get paid.** GST billing, insurance and TPA pre-authorisation with IRDAI's 1-hour and 3-hour clocks, and UPI, card, cash and payment links.
+- **The way hospitals get paid.** GST billing, insurance and TPA pre-authorisation with IRDAI's 1-hour and 3-hour clocks, and UPI, card, cash and payment links.
 - **Every screen in the hospital.** Web workstations, native iOS and Android apps for staff and patients, waiting-room TV token boards and kiosks.
 - **Your choice of hosting.** Our cloud or your own servers. Each hospital's data is kept separate in the database, with an audit trail of who saw what.
 
@@ -57,7 +59,7 @@ Built with love for patients, for hospitals, and for well-made software.</em></p
 | Scan & Share at the front desk | 🟡 Built; sandbox certification next |
 | NHCX insurance claims (eligibility, pre-auth, claims, payments) | 🔵 In progress: protocol conformance fixes |
 | UHI provider: in-person consultations, ambulance, blood bank | 🔵 In progress |
-| SNOMED CT terminology and coded clinical records | 🔵 In progress; India extensions pending licence approval |
+| SNOMED CT terminology and coded clinical records | 🔵 In progress; national extensions pending licence approval |
 | DPDP Act 2023 tooling: consent register, rights requests, breach register | 🟡 Built; consent enforcement next |
 | Public demo hospital | 🔵 In progress |
 | Redesigned interface with specialty components (dental, eye, maternity, ICU, dialysis and more) | 🔵 Design in progress |
@@ -75,6 +77,8 @@ The code is at **[medbrains/medbrains](https://github.com/medbrains/medbrains)**
 
 We'd love to hear from **clinicians** (what slows you down?), **hospital administrators** (what does your HMS get wrong?) and **developers** (Rust, React, Swift, Kotlin). Open an [issue](https://github.com/medbrains/medbrains/issues) or write to hello@medbrains.in.
 
-**Sponsor the work:** fund a feature every hospital gets, implementation at a charitable hospital, or a regional language. Write to hello@medbrains.in.
+**Sponsor the work:** fund a feature every hospital gets, implementation at a charitable hospital, or a language. See [medbrains.in/sponsors](https://www.medbrains.in/sponsors).
+
+**Install MedBrains for hospitals near you:** join the [partner programme](https://www.medbrains.in/partners).
 
 <sub>"MedBrains" and its logo are trademarks of Domnic Amalan S and are not covered by the code licence. SNOMED CT is a registered trademark of SNOMED International.</sub>
