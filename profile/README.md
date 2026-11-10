@@ -47,6 +47,19 @@ Built with love for patients, for hospitals, and for well-made software.</em></p
 - **Every screen in the hospital.** Web workstations, native iOS and Android apps for staff and patients, waiting-room TV token boards and kiosks.
 - **Your choice of hosting.** Our cloud or your own servers. Each hospital's data is kept separate in the database, with an audit trail of who saw what.
 
+## MedBrains OS
+
+MedBrains is also its own operating system: a small, open OS on Debian Linux for **every machine in the hospital**. One image per processor type (x86-64 and arm64); you choose each machine's role on its first-boot screen.
+
+- **Server:** the database, sign-in with an authenticator app, certificates, and the screen that approves every machine.
+- **Workstation:** staff work here; it keeps no patient data, or only what offline mode needs.
+- **Display:** a queue board or TV, with no patient data. It joins today; the board itself is not built yet.
+- **Ward backup:** keeps a ward running if the server or network fails, with its data encrypted. Planned.
+
+One server holds the records; every other machine is a small node that can be replaced in minutes. A new machine joins only when an administrator approves it, and the approval is audited. The OS opens to a desktop of apps, and MedBrains is one of them. No Docker: services run directly on Linux.
+
+**Status:** it builds and boots in virtual machines. Not done yet: signed A/B updates, verified boot, the display board and ward backup role, real hardware, an outside penetration test, and use in a hospital. Details: [MedBrains OS in the README](https://github.com/medbrains/medbrains#medbrains-os-a-hospital-in-a-box).
+
 ## Roadmap
 
 | Area | Status |
