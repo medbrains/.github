@@ -58,7 +58,19 @@ MedBrains is also its own operating system: a small, open OS on Debian Linux for
 
 One server holds the records; every other machine is a small node that can be replaced in minutes. A new machine joins only when an administrator approves it, and the approval is audited. The OS opens to a desktop of apps, and MedBrains is one of them. No Docker: services run directly on Linux.
 
-**Status:** it builds and boots in virtual machines. Not done yet: signed A/B updates, verified boot, the display board and ward backup role, real hardware, an outside penetration test, and use in a hospital. Details: [MedBrains OS in the README](https://github.com/medbrains/medbrains#medbrains-os-a-hospital-in-a-box).
+**Hardware** (recommendations from virtual-machine measurements, not tested kits):
+
+| Machine | Minimum | Recommended |
+|---|---|---|
+| Server, small clinic | 4 cores, 8 GB RAM, 64 GB SSD | Raspberry Pi 5 8 GB + NVMe SSD |
+| Server, hospital | 8 cores, 16 GB RAM, 512 GB NVMe SSD | 16–32 GB RAM, mirrored SSDs, TPM, UPS, plus a standby server |
+| Workstation | 2 cores, 4 GB RAM, 32 GB storage | any small PC or arm64 board that drives the screen |
+| Display / TV board | 2 cores, 2–4 GB RAM | Pi-class board |
+| GPU or AI chip | optional | used when present, never required |
+
+**Measured so far:** 478 MB download, about 1.2 GB installed, about 300 MB of memory for a workstation at its desktop.
+
+**Status:** it builds and boots in virtual machines. Not done yet: signed A/B updates, verified boot, the display board and ward backup role, real hardware, an outside penetration test, and use in a hospital. Details: [medbrains.in/os](https://www.medbrains.in/os) and [MedBrains OS in the README](https://github.com/medbrains/medbrains#medbrains-os-a-hospital-in-a-box).
 
 ## Roadmap
 
