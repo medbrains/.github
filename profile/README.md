@@ -49,6 +49,8 @@ Built with love for patients, for hospitals, and for well-made software.</em></p
 
 ## MedBrains OS
 
+**Batteries included:** the hospital software, its own operating system, built-in security, control of every machine and each country's health rules, in one install. Nothing else to buy.
+
 MedBrains is also its own operating system: a small, open OS on Debian Linux for **every machine in the hospital**. One image per processor type (x86-64 and arm64); you choose each machine's role on its first-boot screen.
 
 - **Server:** the database, sign-in with an authenticator app, certificates, and the screen that approves every machine.
